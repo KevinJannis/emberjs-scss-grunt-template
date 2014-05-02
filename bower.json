@@ -1,0 +1,12 @@
+{
+  "name": "sample-application",
+  description: "",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "ember": "~1.5.0",
+    "ember-i18n": "~1.6.3",
+    "jquery": "~1.11.0",
+    "handlebars": "~1.3.0"
+  }
+}
