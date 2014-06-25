@@ -5,12 +5,6 @@ var routes = function(){
     this.route('forgotPassword', { path: '/forgot-password '});
   });
 
-  this.resource('dashboards', function() {
-    this.route('overview', { path: '/overview' });
-    this.route('pagesOverview', { path: '/:dashboardId/pages/overview' });
-    this.route('pagesDetail', { path: '/:dashboardId/pages/:pageId' });
-  });
-
   this.route('missing', { path: "/*path" });
 };
 
