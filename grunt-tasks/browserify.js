@@ -23,6 +23,13 @@ module.exports = {
             jquery: '$'
           }
         },
+        emberData: {
+          path: 'bower_components/ember-data/ember-data.js',
+          exports: 'EmberData',
+          depends: {
+            ember: 'Ember'
+          }
+        },
         emberI18n: {
           path: 'bower_components/ember-i18n/lib/i18n.js',
           exports: 'EmberI18n',
